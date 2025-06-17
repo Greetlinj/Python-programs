@@ -6,3 +6,13 @@ else:
     print("Not a Leap Year")
 
 Output: leap year
+
+Using function:
+import calendar
+
+def is_leap_year(year):
+    return calendar.isleap(year)
+
+# Test with year 2000
+year = 2000
+print(f"{year} is a leap year: {is_leap_year(year)}")
